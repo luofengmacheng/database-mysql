@@ -4,7 +4,7 @@
 
 Windows下安装MySQL有两种方式，一种是下载msi格式的安装文件，另一种是下载zip格式的压缩包。msi的安装比较简单，基本就是一路next到底。因此，这里只讲zip格式的安装。
 
-从[SWITCHmirror](ftp://mirror.switch.ch/mirror/mysql/Downloads/)下载合适的版本的zip压缩包。
+从 [SWITCHmirror](ftp://mirror.switch.ch/mirror/mysql/Downloads/) 下载合适的版本的zip压缩包。
 
 例如，这里下载win32平台的5.6.23版本的MySQL:mysql-5.6.23-win32.zip。
 
