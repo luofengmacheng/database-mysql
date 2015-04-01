@@ -1,6 +1,6 @@
 ## MySQL数据库学习目录
 
-1 安装MySQL
+1 [安装MySQL](https://github.com/luofengmacheng/database-mysql/blob/master/mysql_install.md)
 
 2 在MySQL上使用基本的SQL语句
 
