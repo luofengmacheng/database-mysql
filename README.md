@@ -26,6 +26,6 @@
 
 2 Python
 
-《Python核心编程》地二版
+《Python核心编程》第二版
 
 3 分布式计算框架:Spark ...
