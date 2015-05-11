@@ -42,30 +42,24 @@ flush privileges;
 
 ### 2 Ubuntu(Linux)安装MySQL
 
-1 同样的，从上述的FTP下载合适的版本的tar.gz压缩包。例如，这里下载的是5.6.24版本的MySQL：mysql-5.6.24.tar.gz。
+1 同样的，从上述的FTP下载合适的版本的tar.gz压缩包。例如，这里下载的是5.6.22版本的MySQL：mysql-5.6.22-linux-glibc2.5-i686.tar.gz。
 
 2 将压缩包解压：
 
 ```
-tar -zxvf mysql-5.6.24.tar.gz
+tar -zxvf mysql-5.6.22-linux-glibc2.5-i686.tar.gz
 ```
 
-3 运行BUILD目录下的autorun.sh，就会在mysql根目录下生成configure文件，然后就是安装三部曲了。
+然后将解压后的包拷贝到安装目录，这里是/usr/local/目录，并重命名为mysql。
 
-```
-./configure
-make
-sudo make install
-```
-
-4 添加mysql用户组和用户
+3 添加mysql用户组和用户
 
 ```
 sudo groupadd mysql
 sudo useradd -r -g mysql mysql
 ```
 
-5 修改安装目录的所有者
+4 修改安装目录的所有者
 
 cd /usr/local/mysql
 
@@ -73,13 +67,13 @@ chown -R root:mysql .　//把当前目录中所有文件的所有者所有者设
 
 chown -R mysql:mysql data
 
-6 创建系统数据库的表
+5 创建系统数据库的表
 
 ```
 sudo scripts/mysql_install_db --user=mysql
 ```
 
-7 启动与关闭mysql
+6 启动与关闭mysql
 
 ```
 // 启动mysql
@@ -103,6 +97,4 @@ export PATH=$PATH:/usr/local/mysql/bin
 source ./.bashrc
 ```
 
-8 设置mysql服务自启动。
-
-
+9 设置mysql服务自启动。
