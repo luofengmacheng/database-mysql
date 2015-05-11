@@ -2,16 +2,17 @@
 
 1 [安装MySQL](https://github.com/luofengmacheng/database-mysql/blob/master/mysql_install.md)
 
-2 在MySQL上使用基本的SQL语句
+2 基本的SQL语句
 
 3 使用C/C++连接MySQL
 
 4 使用Python连接MySQL
 
-MySQL Reference Manual
-http://dev.mysql.com/doc/refman/5.6/en/index.html
+5 [MySQL的备份与恢复](https://github.com/luofengmacheng/database-mysql/blob/master/backup_recovery.md)
 
-http://www.w3cschool.cc/mysql/mysql-tutorial.html
+[MySQL Reference Manual](http://dev.mysql.com/doc/refman/5.6/en/index.html)
+
+[MySQL教程](http://www.w3cschool.cc/mysql/mysql-tutorial.html)
 
 ## 学习计划
 
@@ -24,5 +25,7 @@ http://www.w3cschool.cc/mysql/mysql-tutorial.html
 《MySQL技术内幕》第四版
 
 2 Python
+
+《Python核心编程》第二版
 
 3 分布式计算框架:Spark ...
