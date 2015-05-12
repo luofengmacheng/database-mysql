@@ -29,3 +29,5 @@
 《Python核心编程》第二版
 
 3 分布式计算框架:Spark ...
+
+## [软件开发心得](https://github.com/luofengmacheng/database-mysql/blob/master/programming_study.md)
