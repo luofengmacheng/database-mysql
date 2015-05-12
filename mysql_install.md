@@ -52,14 +52,26 @@ tar -zxvf mysql-5.6.22-linux-glibc2.5-i686.tar.gz
 
 然后将解压后的包拷贝到安装目录，这里是/usr/local/目录，并重命名为mysql。
 
-3 添加mysql用户组和用户
+3 当然，也可以下载通用版本：例如，mysql-5.6.22.tar.gz。
+
+将它解压到安装目录下，然后进行编译：
+
+执行BUILD目录下的autorun.sh，就会在mysql的根目录下生成configure文件，接下来就是安装三部曲了。
+
+```
+./configure
+make
+sudo make install
+```
+
+4 添加mysql用户组和用户
 
 ```
 sudo groupadd mysql
 sudo useradd -r -g mysql mysql
 ```
 
-4 修改安装目录的所有者
+5 修改安装目录的所有者
 
 cd /usr/local/mysql
 
@@ -67,13 +79,13 @@ chown -R root:mysql .　//把当前目录中所有文件的所有者所有者设
 
 chown -R mysql:mysql data
 
-5 创建系统数据库的表
+6 创建系统数据库的表
 
 ```
 sudo scripts/mysql_install_db --user=mysql
 ```
 
-6 启动与关闭mysql
+7 启动与关闭mysql
 
 ```
 // 启动mysql
@@ -83,9 +95,9 @@ sudo ./bin/mysqld_safe --user=mysql &
 sudo mysqladmin -u root -p shutdown
 ```
 
-7 设置root密码。mysql -uroot登录mysql，设置密码的方式与windows一样。
+8 设置root密码。mysql -uroot登录mysql，设置密码的方式与windows一样。
 
-8 将mysql的bin目录加入到PATH中。编辑当前用户的.bashrc文件，在文件尾部加入：
+9 将mysql的bin目录加入到PATH中。编辑当前用户的.bashrc文件，在文件尾部加入：
 
 ```
 export PATH=$PATH:/usr/local/mysql/bin
@@ -97,4 +109,4 @@ export PATH=$PATH:/usr/local/mysql/bin
 source ./.bashrc
 ```
 
-9 设置mysql服务自启动。
+10 设置mysql服务自启动。
