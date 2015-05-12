@@ -97,7 +97,7 @@ sudo mysqladmin -u root -p shutdown
 
 8 设置root密码。mysql -uroot登录mysql，设置密码的方式与windows一样。
 
-9 将mysql的bin目录加入到PATH中。编辑当前用户的.bashrc文件，在文件尾部加入：
+9 将mysql的bin目录加入到PATH中。编辑当前用户的.bashrc文件，在文件尾部添加：
 
 ```
 export PATH=$PATH:/usr/local/mysql/bin
