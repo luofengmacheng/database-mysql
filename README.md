@@ -8,7 +8,9 @@
 
 4 使用Python连接MySQL
 
-5 [MySQL的备份与恢复](https://github.com/luofengmacheng/database-mysql/blob/master/backup_recovery.md)
+5 [MySQL中的连接查询](https://github.com/luofengmacheng/database-mysql/blob/master/join.md)
+
+6 [MySQL的备份与恢复](https://github.com/luofengmacheng/database-mysql/blob/master/backup_recovery.md)
 
 [MySQL Reference Manual](http://dev.mysql.com/doc/refman/5.6/en/index.html)
 
