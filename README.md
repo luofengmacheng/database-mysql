@@ -12,6 +12,10 @@
 
 6 [MySQL的备份与恢复](https://github.com/luofengmacheng/database-mysql/blob/master/backup_recovery.md)
 
+7 [其它问题集锦](https://github.com/luofengmacheng/database-mysql/blob/master/other_problems.md)
+
+8 [mysql中的日期时间操作](https://github.com/luofengmacheng/database-mysql/blob/master/datetime.md)
+
 [MySQL Reference Manual](http://dev.mysql.com/doc/refman/5.6/en/index.html)
 
 [MySQL教程](http://www.w3cschool.cc/mysql/mysql-tutorial.html)
