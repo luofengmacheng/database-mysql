@@ -16,6 +16,8 @@
 
 8 [mysql中的日期时间操作](https://github.com/luofengmacheng/database-mysql/blob/master/datetime.md)
 
+9 [MySQL中的编码问题](https://github.com/luofengmacheng/database-mysql/blob/master/characters_problems.md)
+
 [MySQL Reference Manual](http://dev.mysql.com/doc/refman/5.6/en/index.html)
 
 [MySQL教程](http://www.w3cschool.cc/mysql/mysql-tutorial.html)
