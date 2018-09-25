@@ -30,7 +30,7 @@
 
 * datediff(date1, date2) date1 - date2的天数
 * timediff(time1, time2) time1 - time2的差值
-* timestamp(interval, datetime1, datetime2) interval指示结果的单位，可以是YEAR、QUARTER、MONTH、WEEK、DAY、HOUR、MINUTE、SECOND、FRAC_SECOND。
+* timestampdiff(interval, datetime1, datetime2) interval指示结果的单位，可以是YEAR、QUARTER、MONTH、WEEK、DAY、HOUR、MINUTE、SECOND、FRAC_SECOND。
 
 ### 6 日期的转换
 
